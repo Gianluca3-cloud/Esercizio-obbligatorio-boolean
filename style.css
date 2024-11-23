@@ -1,0 +1,83 @@
+/* Container */
+.container{
+  width: 55%;
+  margin: auto;
+  margin-top: 5%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2%;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+/* Background */
+body{
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-attachment: fixed;
+}
+/* Logo ridimensionato */
+#logo{
+  display: block;
+  width: 20%;
+  height: auto;
+  text-align: center;
+  margin: 0px auto;
+/* Titolo */
+}
+.titolo{
+  text-align: center;
+  color: lime;
+  margin-bottom: 0.5%;
+}
+/* background verde buttons */
+.VerdeBottoni{
+  background-color: lime;
+  padding: 1.5%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+/* Margine tra i 3 buttons */
+button{
+  margin-right: 1%;
+}
+
+/* Tutti i discendenti h2 di div inline con margin 0px */
+div h2{
+  display: inline-block;
+  margin-bottom: 0px;
+}
+/* container Monopattini */
+.ContainerNV1{
+  width: 40%;
+  height: auto;
+}
+/* Barra carica 1 */
+.caricaNV1{
+  width: 40%;
+  height: 30px;
+  background-color: orange;
+  border-radius: 10px;
+}
+/* Barra carica 3 */
+.caricaNV2{
+  width: 120%;
+  height: 30px;
+  background-color: lime;
+  border-radius: 10px;
+}
+/* Barra carica 3 */
+.caricaNV3{
+  width: 30%;
+  height: 30px;
+  background-color: #f75e25;
+  border-radius: 10px;
+}
+/* Applicazione font da fonts.google a tutti i caratteri */
+*{
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
